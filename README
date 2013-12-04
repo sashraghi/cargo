@@ -1,1 +1,8 @@
-README will be comming soon
+README
+
+This simple project can be used for starting 
+integration tests with cargo plugin.
+In this case we start an embedded Jetty instance and deploy
+the war file into the server.
+automatically an integration test will be started and an
+a request will be sent to the server.

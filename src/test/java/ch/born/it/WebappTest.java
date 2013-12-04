@@ -18,7 +18,7 @@ public class WebappTest extends TestCase {
 	 */
 	public void testCallIndexPage() throws Exception {
 		
-		URL url = new URL("http://localhost:8080/ezbank");
+		URL url = new URL("http://localhost:8088/echo");
 		HttpURLConnection connection = (HttpURLConnection) url.openConnection();
 		connection.connect();
 		assertEquals(200, connection.getResponseCode());
